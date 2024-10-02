@@ -1,0 +1,23 @@
+[33mcommit d1a096c24465a5c3128c763c63c7efed1e7f7bdf[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: TeddyVersion <messaythewodros2@gmail.com>
+Date:   Tue Oct 1 21:35:13 2024 +0300
+
+    Remove large files exceeding GitHub's size limit
+
+[33mcommit 5ddfb023ae74a6ec0dc7dcc1fee06dcaeee89bc9[m
+Author: TeddyVersion <messaythewodros2@gmail.com>
+Date:   Tue Oct 1 21:14:52 2024 +0300
+
+    larege file has been removed
+
+[33mcommit b8c6232cc9f1d94078bbecc8a03f33f0cbc605ca[m
+Author: TeddyVersion <messaythewodros2@gmail.com>
+Date:   Tue Oct 1 12:21:19 2024 +0300
+
+    Dleted large file size
+
+[33mcommit 6b593a6f1ed9e30c49633d03513ebd24e3b31656[m
+Author: TeddyVersion <messaythewodros2@gmail.com>
+Date:   Tue Oct 1 10:04:37 2024 +0300
+
+    Initial commit
