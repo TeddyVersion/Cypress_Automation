@@ -1,4 +1,6 @@
 Odoo ERP Customization - End-to-End Cypress Automation
+
+
 This repository contains the end-to-end test automation scripts for Odoo ERP customizations using Cypress. The tests are designed to automate the custom workflows and features of the Odoo system.
 
 Table of Contents
@@ -11,7 +13,9 @@ Writing New Tests
 Reporting
 Contributing
 License
+
 Project Overview
+
 This project automates the testing of custom workflows, modules, and features implemented within an Odoo ERP system. Using Cypress for end-to-end testing, we ensure that critical business processes are validated automatically to catch any regressions or issues in the ERP customizations.
 
 The automation covers:
@@ -50,7 +54,11 @@ Copy code
   "username": "admin",
   "password": "admin"
 }
+
+
 Test Structure
+
+
 The tests are organized as follows:
 
 bash
@@ -67,13 +75,19 @@ Cypress_Automation/
 ├── cypress.env.json      # Environment variables for Cypress
 ├── cypress.json          # Cypress configuration
 ├── package.json          # Node dependencies and scripts
+
+
 Key Files:
+
+
 login.spec.js: Verifies the login functionality for Odoo users.
 sales.spec.js: Tests the sales workflow in Odoo, including product listing and order management.
 Running the Tests
 You can run the Cypress tests using one of the following commands:
 
 To run the tests in the interactive Cypress Test Runner:
+
+
 bash
 Copy code
 npx cypress open
@@ -84,11 +98,13 @@ npx cypress run
 Running specific tests:
 To run a specific test file, use the --spec flag:
 
+
 bash
 Copy code
 npx cypress run --spec "cypress/integration/login.spec.js"
 Writing New Tests
 To write new tests for other custom Odoo workflows:
+
 
 Create a new .spec.js file under cypress/integration.
 Use Cypress commands like cy.visit(), cy.get(), and cy.contains() to interact with the Odoo UI.
